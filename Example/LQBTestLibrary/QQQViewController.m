@@ -6,6 +6,7 @@
 //  Copyright (c) 2016 linqb. All rights reserved.
 //
 
+#import "LQBShow.h"
 #import "QQQViewController.h"
 
 @interface QQQViewController ()
@@ -14,16 +15,14 @@
 
 @implementation QQQViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+  [super viewDidLoad];
+    [LQBShow show];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)didReceiveMemoryWarning {
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
 
 @end
